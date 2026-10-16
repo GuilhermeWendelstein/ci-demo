@@ -6,4 +6,4 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Opa gurizada"
+      - run: echo "Opa"
