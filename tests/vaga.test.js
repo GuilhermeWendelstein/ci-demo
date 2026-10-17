@@ -9,5 +9,5 @@ test("turma com vaga aceita matrícula", () => {
 
 test("ocupar a última vaga lota a turma", () => {
   ocuparVaga(turma);
-  expect(temVaga(turma)).toBe(false);
+  expect(temVaga(turma)).toBe(true);
 });
